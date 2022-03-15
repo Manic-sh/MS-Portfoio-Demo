@@ -1,0 +1,31 @@
+.btn {
+  font-family: "Nunito Sans", sans-serif;
+  position: relative;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 2;
+  height: 40px;
+  transition: all 0.2s ease;
+  letter-spacing: 0.05em;
+  border-radius: 6px;
+  width: 160px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  border: none;
+  cursor: pointer;
+  background-color: var(--bg-color);
+  border-color: var(--neo-border-light);
+  box-shadow: var(--neo-shadow-soft);
+  outline: 0;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  background-color: var(--bg-color) !important;
+  border-color: var(--neo-border-light) !important;
+  box-shadow: var(--neo-shadow--inset) !important;
+  transition: all 0.2s ease;
+}

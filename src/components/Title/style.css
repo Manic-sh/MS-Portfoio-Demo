@@ -1,0 +1,26 @@
+.neo-heading {
+  margin-bottom: 1rem !important;
+}
+.neo-heading::before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: "";
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #e6e7ee;
+  box-shadow: var(--neo-shadow-inset);
+  border-color: var(--neo-border-light);
+}
+.neo-heading-title {
+  font-weight: 700;
+  position: relative;
+  display: block;
+  padding-top: 9px;
+  padding-left: 15px;
+}
+.neo-subtitle {
+  font-size: 36px;
+  font-weight: 700;
+}

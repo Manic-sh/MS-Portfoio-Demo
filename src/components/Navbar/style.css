@@ -1,0 +1,17 @@
+@media screen and (max-width: 576px) {
+  .topNavBar {
+    margin: 0.6rem 0.6rem;
+  }
+  .navbar-nav {
+    flex-direction: row !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .topNavBar {
+    margin: 0.6rem 0.6rem;
+  }
+  .navbar-nav {
+    flex-direction: row !important;
+  }
+}

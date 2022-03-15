@@ -1,0 +1,25 @@
+.neo-h1 {
+  font-size: 4em;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 576px) {
+  .neo-h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .neo-h1 {
+    font-size: 2em;
+    font-weight: 600;
+  }
+}
+
+@keyframes blink {
+  to {
+    background-color: transparent;
+  }
+}

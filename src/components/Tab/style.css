@@ -1,0 +1,32 @@
+.nav-tabs .nav-link {
+  display: flex;
+  text-align: center;
+  height: 80px;
+  width: 80px;
+  padding: 0;
+  border: none;
+  box-shadow: var(--neo-shadow-inset);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  color: var(--neo-dark-color);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.nav-tabs .nav-link.active {
+  box-shadow: var(--neo-shadow-soft);
+  background-color: var(--bg-color);
+  border-color: var(--neo-border-light);
+}
+
+.neo-tab {
+  justify-content: flex-start;
+}
+.neo-tab .nav-item {
+  margin-right: 1rem;
+}
+.neo-flex-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
