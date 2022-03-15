@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
+import "./style.css";
 
 const NeoNavigation = () => {
   return (

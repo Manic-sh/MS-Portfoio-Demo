@@ -1,0 +1,15 @@
+@media screen and (max-width: 992px) {
+  .navbar-nav {
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+  }
+  .navbar {
+    flex-wrap: nowrap !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .navbar-nav {
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+  }
+}
